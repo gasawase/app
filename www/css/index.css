@@ -82,9 +82,3 @@ h2{
 .hidden {
     display: none;
 }
-
-button {
-    border: 4px;
-    border-style: solid;
-    border-radius: 5px;
-}

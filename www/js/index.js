@@ -17,10 +17,14 @@
  * under the License.
  */
 
- var randNum = Math.round(Math.random() * 10);
+var randNum = Math.round(Math.random() * 10);
+// var clicked = document.getElementById("guessButt");
+
+// clicked.onclick = runProg();
+
 
  function runProg (){
-    var theirNum = document.getElementsByName("userGuess");
+    var theirNum = document.getElementsById("usersGuess");
 
     //exception handling
     if (theirNum >= 0 && theirNum <= 10){
