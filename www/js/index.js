@@ -50,6 +50,4 @@ function onLoad () {
         window.alert("The number you entered was not in the interval. Please try again.")
         document.getElementsByName("userGuess").focus();
     }
-
-
  }
