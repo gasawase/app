@@ -18,13 +18,14 @@
  */
 
 var randNum = Math.round(Math.random() * 10);
-// var clicked = document.getElementById("guessButt");
 
-// clicked.onclick = runProg();
-
+function onLoad () {
+    document.getElementById('guessButt').addEventListener("click", runProg());
+}
 
  function runProg (){
-    var theirNum = document.getElementsById("usersGuess");
+    console.log("Button pressed");
+    var theirNum = document.getElementsById("userGuess");
 
     //exception handling
     if (theirNum >= 0 && theirNum <= 10){
